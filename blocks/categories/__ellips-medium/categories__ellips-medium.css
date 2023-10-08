@@ -1,0 +1,29 @@
+.categories__ellips-medium {
+  width: 71.993px;
+  height: 71.993px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  bottom: 50%;
+  right: 50%;
+  animation: ellips-medium 15s infinite linear alternate;
+  visibility: hidden;
+}
+
+@keyframes ellips-medium {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(150px, 0) scale(2);
+  }
+  50% {
+    transform: translate(100px, 150px) scale(1.5);
+  }
+  75% {
+    transform: translate(0, 150px) scale(1.2);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}

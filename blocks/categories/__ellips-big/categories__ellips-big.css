@@ -1,0 +1,23 @@
+.categories__ellips-big {
+  width: 113.52px;
+  height: 113.52px;
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  animation: ellips-big 15s infinite linear alternate;
+  visibility: hidden;
+}
+
+@keyframes ellips-big {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(120px, 140px) scale(1.5);
+  }
+  100% {
+    transform: translate(300px, 100px) scale(1);
+  }
+}

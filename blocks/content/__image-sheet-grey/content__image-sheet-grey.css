@@ -1,0 +1,12 @@
+.content__image-sheet-grey {
+  position: absolute;
+  bottom: 90px;
+  right: 561px;
+}
+
+@media screen and (max-width: 1065px) {
+  .content__image-sheet-grey {
+    bottom: 11px;
+    right: 263px;
+  }
+}

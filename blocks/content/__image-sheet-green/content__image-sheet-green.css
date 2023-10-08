@@ -1,0 +1,14 @@
+.content__image-sheet-green {
+  position: absolute;
+  top: 76px;
+  /* animation: sheet-green 0.2s linear; */
+}
+
+/* @keyframes sheet-green {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(10px, 10px);
+  }
+} */

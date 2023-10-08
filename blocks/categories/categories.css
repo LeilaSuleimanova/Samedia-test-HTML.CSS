@@ -1,0 +1,7 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  padding-left: 160px;
+  max-width: 1600px;
+  margin: 0;
+}

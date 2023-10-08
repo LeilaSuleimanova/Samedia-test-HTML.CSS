@@ -1,0 +1,14 @@
+.categories__text {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: normal;
+  font-style: normal;
+  letter-spacing: -1px;
+  font-family: "Raleway";
+  padding: 0 0 19px 16px;
+  display: flex;
+  align-items: flex-end;
+  max-width: 190px;
+  z-index: 1;
+}
